@@ -1,3 +1,4 @@
+// Toggle Menu
 let menu = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
@@ -9,19 +10,13 @@ menu.onclick = () => {
 window.onscroll = () => {
   menu.classList.remove("bx-x");
   navbar.classList.remove("active");
-  s;
 };
 
-//type text code
+// Typed Text
 var typed = new Typed(".multiple-text", {
-  strings: [
-    "Frontend Developer.",
-    "Backend Developer.",
-    "Web Designer.",
-    "Lazy Man.",
-  ],
+  strings: ["Frontend Developer.", "Backend Developer.", "Web Designer."],
   typeSpeed: 80,
   backSpeed: 80,
-  balckDelay: 1200,
+  backDelay: 1200,
   loop: true,
 });
